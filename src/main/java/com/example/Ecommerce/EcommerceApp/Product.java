@@ -1,7 +1,6 @@
 package com.example.Ecommerce.EcommerceApp;
 
 import jakarta.persistence.*;
-import org.springframework.data.repository.cdi.Eager;
 
 @Entity
 @Table

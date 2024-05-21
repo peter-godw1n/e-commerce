@@ -1,11 +1,8 @@
-package com.example.Ecommerce;
+package com.example.Ecommerce.EcommerceApp;
 
-import com.example.Ecommerce.EcommerceApp.Product;
-import org.springframework.data.domain.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-
 import java.util.Optional;
 
 @Repository

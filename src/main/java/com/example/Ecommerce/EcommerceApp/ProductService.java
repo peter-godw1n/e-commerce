@@ -1,13 +1,9 @@
 package com.example.Ecommerce.EcommerceApp;
 
-import com.example.Ecommerce.ProductRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
@@ -47,8 +43,6 @@ public class ProductService {
         productRepository.deleteById(productId);
     }
 
-//   public void updateProduct(Long productId, String name, String description) {
-//    }
 
     @Transactional
     public void updateProduct(Long productId,
