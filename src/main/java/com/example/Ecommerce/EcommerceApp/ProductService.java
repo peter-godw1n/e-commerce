@@ -47,8 +47,6 @@ public class ProductService {
         productRepository.deleteById(productId);
     }
 
-//   public void updateProduct(Long productId, String name, String description) {
-//    }
 
     @Transactional
     public void updateProduct(Long productId,
