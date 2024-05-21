@@ -2,10 +2,7 @@ package com.example.Ecommerce.EcommerceApp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping(path = "api/v1/e-commerce")
